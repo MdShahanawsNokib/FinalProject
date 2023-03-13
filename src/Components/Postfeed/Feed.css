@@ -1,0 +1,11 @@
+.feedCoantainer {
+    flex: 6;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.feedWrapper {
+    margin-top: 75px;
+    padding-right: 10px;
+    padding-left: 10px;
+}

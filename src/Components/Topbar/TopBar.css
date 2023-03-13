@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topbarConatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: fixed;
+}
+
+.logo {
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(246, 165, 3);
+    border-radius: 10px;
+    color: rgb(250, 250, 186);
+}
+
+.topbarLeftSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topbarCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.topBarLinks {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topBarLink {
+    align-items: center;
+    padding-right: 20px;
+}
+
+.topBarIcons {
+    display: flex;
+}
+
+.topbarIconItem {
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+}
+
+.topbarRight {
+    background-color: rgb(123, 121, 121);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.Searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40vw;
+}
+
+.searchIcon {
+    width: 15px;
+    height: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(83, 82, 82);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.searchIcon:hover {
+    background-color: rgb(230, 226, 226);
+    color: rgb(60, 60, 239);
+}
+
+.Searchbar input {
+    height: 25px;
+    background-color: rgba(249, 246, 246, 0.861);
+    border: none;
+    border-radius: 2px;
+    width: 40vw;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.Searchbar input:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.Profile {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.topbarImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

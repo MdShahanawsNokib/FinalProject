@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+    width: 5px;
+    align-items: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(247, 247, 117);
+    ;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(52, 52, 47, 0.624);
+    ;
+}
+
+.rightBarCoantiner {
+    flex: 3;
+    overflow-y: scroll;
+}
+
+.rigthBarWrapper {
+    margin-top: 20px;
+    margin-right: 50px;
+    align-items: end;
+    text-align: end;
+    margin-top: 75px;
+}
+
+.rigthBarListItem {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.rigthBarIcons {
+    padding-left: 10px;
+}
+
+.rigthBarButton {
+    width: 60%;
+}
+
+.rightBarHr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.rigthBarFriend {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.rigthbarFriendImg {
+    margin-right: 10px;
+}

@@ -1,0 +1,8 @@
+.homeContainer {
+    display: flex;
+    /* background-color: rgba(11, 0, 11, 0.775); */
+    background-color: rgb(30, 28, 28);
+    /* height: calc(100vh - 50px); */
+    height: 99.99999vh;
+    color: white;
+}
